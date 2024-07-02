@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="" class="logosec">
+                    <img src="/assets/logo2.png" alt="logo">
+                    <div class="logoCont">
+                        <p class="logo">THE Maker</p>
+                        <small>Technologies</small>
+                    </div>
+                </a>
+    
+                <div class="toggler" onclick="Drop()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <div class="list">
+                <a href="#me" class="one">Me</a>
+                <a href="#goals">Goals</a>
+                <a href="#links">Links</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main id="me">
+        <div class="container">
+            <div class="left">
+                <span data-testid="slackDisplayName">Hi, I am</span>  
+                <h2 class="stroke-text" data-testid="slackDisplayName">Gh Guda</h2>
+                <p>Self-independent, reliable and friendly individual who works hard to achieve his goals. Adaptable quickly and organized well. Interested in learning the latest web &
+                     software technologies quickly. Able to work in teams as well as individually.</p>
+
+                <div class="cop">
+                    <p>Email:<span data-testid="slackEmail">Melchizedek.narh@bluecrest.edu.gh</span></p>
+                    <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+                    <p>Current Day: <span data-testid="currentDay"></span></p>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="/assets/slackprofile.jpg" alt="Mel" data-testid="slackProfilePicture" />
+            </div>
+        </div>
+    </main>
+
+    <main id="goals">
+        <h1>My Goals</h1>
+        <ul class="goal-list">
+            <li class="list-item">Become a senior full-stack developer and a mobile app developer</li>
+            <li class="list-item">Become Proficient in Advanced Frontend Technologies</li>
+            <li class="list-item">Contribute to Open Source Projects</li>
+            <li class="list-item">Master Python</li>
+            <li class="list-item">Build a Robust Portfolio</li>
+            <li class="list-item">Network with Industry Professionals</li>
+            <li class="list-item">Achieve Certification in Advanced Web Development Courses</li>
+            <li class="list-item">Build and Integrate AI's</li>
+        </ul>
+    </main>
+
+    <main class="links" id="links">
+    </main>
+
+    <footer id="footer">
+        <div class="useful">
+            <h5>Useful Links</h5>
+            <ul>
+                <li><a href="http://hng.tech/learn" data-testid="hngLink">HNG Tech Learn</a></li>
+                <li><a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                <li><a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
+        </div>
+        <hr>
+        <p>&copy; 2024 The Maker Technologies</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
