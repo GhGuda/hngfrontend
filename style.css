@@ -122,13 +122,17 @@ main{
 }
 
 
+#me{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
 
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 6rem;
-    height: 100vh;
 }
 
 .container .left{
@@ -160,7 +164,7 @@ main{
 
 
 .left p{
-    color: black;
+    color: var(--white-color);
     font-size: .8rem;
     letter-spacing: .1rem;
     line-height: 1.rem;
@@ -168,11 +172,11 @@ main{
 
 
 #goals{
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 5rem;
 }
 
 
@@ -197,6 +201,7 @@ main{
 
 .goal-list .list-item{
     list-style:  circle;
+    color: var(--white-color);
 }
 
 
@@ -321,14 +326,14 @@ footer{
     }
 
     #me{
-        margin-top: 10rem;
+        margin-top: 6.5rem;
+        margin-bottom: 5rem;
     }
 
     .container{
         display: flex;
         flex-direction: column;
         gap: 3rem;
-        height: 100vh;
     }
 
     .container .left{
